@@ -4,7 +4,8 @@ delDate=$(date -d "$(date +"%Y%m%d") - 15 days" +"%Y%m%d")
 
 path=/path/to/backup/folder/*/
 
-dirs=()
+# dirs=()
+
 for dir in $path;
  do
 
